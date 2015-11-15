@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4015EC61BF908620068AA2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4015EC51BF908620068AA2A /* AppDelegate.swift */; };
+		A4015EC91BF908620068AA2A /* Visivent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4015EC71BF908620068AA2A /* Visivent.xcdatamodeld */; };
+		A4015ECB1BF908620068AA2A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4015ECA1BF908620068AA2A /* MasterViewController.swift */; };
+		A4015ECD1BF908620068AA2A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4015ECC1BF908620068AA2A /* DetailViewController.swift */; };
+		A4015ED01BF908620068AA2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4015ECE1BF908620068AA2A /* Main.storyboard */; };
+		A4015ED21BF908620068AA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4015ED11BF908620068AA2A /* Assets.xcassets */; };
+		A4015ED51BF908620068AA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4015ED31BF908620068AA2A /* LaunchScreen.storyboard */; };
+		A4015EE01BF908620068AA2A /* VisiventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4015EDF1BF908620068AA2A /* VisiventTests.swift */; };
+		A4015EEB1BF908620068AA2A /* VisiventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4015EEA1BF908620068AA2A /* VisiventUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4015EDC1BF908620068AA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4015EBA1BF908620068AA2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4015EC11BF908620068AA2A;
+			remoteInfo = Visivent;
+		};
+		A4015EE71BF908620068AA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4015EBA1BF908620068AA2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4015EC11BF908620068AA2A;
+			remoteInfo = Visivent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4015EC21BF908620068AA2A /* Visivent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visivent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4015EC51BF908620068AA2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4015EC81BF908620068AA2A /* Visivent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Visivent.xcdatamodel; sourceTree = "<group>"; };
+		A4015ECA1BF908620068AA2A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A4015ECC1BF908620068AA2A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A4015ECF1BF908620068AA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4015ED11BF908620068AA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4015ED41BF908620068AA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4015ED61BF908620068AA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4015EDB1BF908620068AA2A /* VisiventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisiventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4015EDF1BF908620068AA2A /* VisiventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisiventTests.swift; sourceTree = "<group>"; };
+		A4015EE11BF908620068AA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4015EE61BF908620068AA2A /* VisiventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisiventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4015EEA1BF908620068AA2A /* VisiventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisiventUITests.swift; sourceTree = "<group>"; };
+		A4015EEC1BF908620068AA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4015EBF1BF908620068AA2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4015ED81BF908620068AA2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4015EE31BF908620068AA2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4015EB91BF908620068AA2A = {
+			isa = PBXGroup;
+			children = (
+				A4015EC41BF908620068AA2A /* Visivent */,
+				A4015EDE1BF908620068AA2A /* VisiventTests */,
+				A4015EE91BF908620068AA2A /* VisiventUITests */,
+				A4015EC31BF908620068AA2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4015EC31BF908620068AA2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4015EC21BF908620068AA2A /* Visivent.app */,
+				A4015EDB1BF908620068AA2A /* VisiventTests.xctest */,
+				A4015EE61BF908620068AA2A /* VisiventUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4015EC41BF908620068AA2A /* Visivent */ = {
+			isa = PBXGroup;
+			children = (
+				A4015EC51BF908620068AA2A /* AppDelegate.swift */,
+				A4015ECA1BF908620068AA2A /* MasterViewController.swift */,
+				A4015ECC1BF908620068AA2A /* DetailViewController.swift */,
+				A4015ECE1BF908620068AA2A /* Main.storyboard */,
+				A4015ED11BF908620068AA2A /* Assets.xcassets */,
+				A4015ED31BF908620068AA2A /* LaunchScreen.storyboard */,
+				A4015ED61BF908620068AA2A /* Info.plist */,
+				A4015EC71BF908620068AA2A /* Visivent.xcdatamodeld */,
+			);
+			path = Visivent;
+			sourceTree = "<group>";
+		};
+		A4015EDE1BF908620068AA2A /* VisiventTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4015EDF1BF908620068AA2A /* VisiventTests.swift */,
+				A4015EE11BF908620068AA2A /* Info.plist */,
+			);
+			path = VisiventTests;
+			sourceTree = "<group>";
+		};
+		A4015EE91BF908620068AA2A /* VisiventUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4015EEA1BF908620068AA2A /* VisiventUITests.swift */,
+				A4015EEC1BF908620068AA2A /* Info.plist */,
+			);
+			path = VisiventUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4015EC11BF908620068AA2A /* Visivent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4015EEF1BF908620068AA2A /* Build configuration list for PBXNativeTarget "Visivent" */;
+			buildPhases = (
+				A4015EBE1BF908620068AA2A /* Sources */,
+				A4015EBF1BF908620068AA2A /* Frameworks */,
+				A4015EC01BF908620068AA2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Visivent;
+			productName = Visivent;
+			productReference = A4015EC21BF908620068AA2A /* Visivent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4015EDA1BF908620068AA2A /* VisiventTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4015EF21BF908620068AA2A /* Build configuration list for PBXNativeTarget "VisiventTests" */;
+			buildPhases = (
+				A4015ED71BF908620068AA2A /* Sources */,
+				A4015ED81BF908620068AA2A /* Frameworks */,
+				A4015ED91BF908620068AA2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4015EDD1BF908620068AA2A /* PBXTargetDependency */,
+			);
+			name = VisiventTests;
+			productName = VisiventTests;
+			productReference = A4015EDB1BF908620068AA2A /* VisiventTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4015EE51BF908620068AA2A /* VisiventUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4015EF51BF908620068AA2A /* Build configuration list for PBXNativeTarget "VisiventUITests" */;
+			buildPhases = (
+				A4015EE21BF908620068AA2A /* Sources */,
+				A4015EE31BF908620068AA2A /* Frameworks */,
+				A4015EE41BF908620068AA2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4015EE81BF908620068AA2A /* PBXTargetDependency */,
+			);
+			name = VisiventUITests;
+			productName = VisiventUITests;
+			productReference = A4015EE61BF908620068AA2A /* VisiventUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4015EBA1BF908620068AA2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "OLIVER HAGER";
+				TargetAttributes = {
+					A4015EC11BF908620068AA2A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A4015EDA1BF908620068AA2A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A4015EC11BF908620068AA2A;
+					};
+					A4015EE51BF908620068AA2A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A4015EC11BF908620068AA2A;
+					};
+				};
+			};
+			buildConfigurationList = A4015EBD1BF908620068AA2A /* Build configuration list for PBXProject "Visivent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4015EB91BF908620068AA2A;
+			productRefGroup = A4015EC31BF908620068AA2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4015EC11BF908620068AA2A /* Visivent */,
+				A4015EDA1BF908620068AA2A /* VisiventTests */,
+				A4015EE51BF908620068AA2A /* VisiventUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4015EC01BF908620068AA2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4015ED51BF908620068AA2A /* LaunchScreen.storyboard in Resources */,
+				A4015ED21BF908620068AA2A /* Assets.xcassets in Resources */,
+				A4015ED01BF908620068AA2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4015ED91BF908620068AA2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4015EE41BF908620068AA2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4015EBE1BF908620068AA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4015EC61BF908620068AA2A /* AppDelegate.swift in Sources */,
+				A4015EC91BF908620068AA2A /* Visivent.xcdatamodeld in Sources */,
+				A4015ECB1BF908620068AA2A /* MasterViewController.swift in Sources */,
+				A4015ECD1BF908620068AA2A /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4015ED71BF908620068AA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4015EE01BF908620068AA2A /* VisiventTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4015EE21BF908620068AA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4015EEB1BF908620068AA2A /* VisiventUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4015EDD1BF908620068AA2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4015EC11BF908620068AA2A /* Visivent */;
+			targetProxy = A4015EDC1BF908620068AA2A /* PBXContainerItemProxy */;
+		};
+		A4015EE81BF908620068AA2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4015EC11BF908620068AA2A /* Visivent */;
+			targetProxy = A4015EE71BF908620068AA2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4015ECE1BF908620068AA2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4015ECF1BF908620068AA2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4015ED31BF908620068AA2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4015ED41BF908620068AA2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4015EED1BF908620068AA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4015EEE1BF908620068AA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4015EF01BF908620068AA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Visivent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webporting.Visivent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4015EF11BF908620068AA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Visivent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webporting.Visivent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4015EF31BF908620068AA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisiventTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webporting.VisiventTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visivent.app/Visivent";
+			};
+			name = Debug;
+		};
+		A4015EF41BF908620068AA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisiventTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webporting.VisiventTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visivent.app/Visivent";
+			};
+			name = Release;
+		};
+		A4015EF61BF908620068AA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisiventUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webporting.VisiventUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Visivent;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A4015EF71BF908620068AA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisiventUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webporting.VisiventUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Visivent;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4015EBD1BF908620068AA2A /* Build configuration list for PBXProject "Visivent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4015EED1BF908620068AA2A /* Debug */,
+				A4015EEE1BF908620068AA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4015EEF1BF908620068AA2A /* Build configuration list for PBXNativeTarget "Visivent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4015EF01BF908620068AA2A /* Debug */,
+				A4015EF11BF908620068AA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4015EF21BF908620068AA2A /* Build configuration list for PBXNativeTarget "VisiventTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4015EF31BF908620068AA2A /* Debug */,
+				A4015EF41BF908620068AA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4015EF51BF908620068AA2A /* Build configuration list for PBXNativeTarget "VisiventUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4015EF61BF908620068AA2A /* Debug */,
+				A4015EF71BF908620068AA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4015EC71BF908620068AA2A /* Visivent.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4015EC81BF908620068AA2A /* Visivent.xcdatamodel */,
+			);
+			currentVersion = A4015EC81BF908620068AA2A /* Visivent.xcdatamodel */;
+			path = Visivent.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4015EBA1BF908620068AA2A /* Project object */;
+}
