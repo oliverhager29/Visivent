@@ -21,7 +21,7 @@ class GVPConfig: NSObject, NSCoding {
     
     // MARK: Properties
     /// is data collected in the database
-    var isDataCollectionEnabled : Bool = false
+    var isDataCollectionEnabled : Bool = true
     /// is activity displayed in the map
     var isActivityDisplayed : Bool = true
     /// is volcano location displayed in the map

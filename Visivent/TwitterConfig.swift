@@ -20,7 +20,7 @@ class TwitterConfig: NSObject, NSCoding {
     
     // MARK: Properties
     /// is data collected in the database
-    var isDataCollectionEnabled : Bool = false
+    var isDataCollectionEnabled : Bool = true
     /// is activity displayed in the map
     var isDisplayed : Bool = true
     /// Twitter consumer key (only for demo purposes, another consumer key can be configured)

@@ -25,7 +25,6 @@
 		A455E2441C496A3500E56585 /* LocationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455E2431C496A3500E56585 /* LocationLoader.swift */; };
 		A455E2471C49757200E56585 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455E2461C49757200E56585 /* FileReader.swift */; };
 		A455E2491C497CAF00E56585 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455E2481C497CAF00E56585 /* CSVReader.swift */; };
-		A455E24F1C49E6EE00E56585 /* worldcitiespop.txt in Resources */ = {isa = PBXBuildFile; fileRef = A455E24D1C49E6EE00E56585 /* worldcitiespop.txt */; };
 		A45B399E1C0406F300E0F448 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B399D1C0406F300E0F448 /* TwitterClient.swift */; };
 		A45B39A01C040D2700E0F448 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45B399F1C040D2700E0F448 /* Social.framework */; };
 		A45BA6EB1C6B011800B43D2F /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BA6EA1C6B011800B43D2F /* LogUtil.swift */; };
@@ -58,7 +57,6 @@
 		A495EC3A1C4C7359004139D5 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495EC391C4C7359004139D5 /* StringUtil.swift */; };
 		A4A947911C4B8238006226DA /* MapConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A947901C4B8238006226DA /* MapConfig.swift */; };
 		A4A947931C4B8DFD006226DA /* MapConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A947921C4B8DFD006226DA /* MapConfigViewController.swift */; };
-		A4AB01441C79CC1E00F0AD0D /* Visivent.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A4AB01411C79CC1E00F0AD0D /* Visivent.sqlite */; };
 		A4AB01451C79CC1E00F0AD0D /* Visivent.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = A4AB01421C79CC1E00F0AD0D /* Visivent.sqlite-shm */; };
 		A4AB01461C79CC1E00F0AD0D /* Visivent.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = A4AB01431C79CC1E00F0AD0D /* Visivent.sqlite-wal */; };
 		A4B20ABC1C5706F300A2B8B8 /* GVPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B20ABB1C5706F300A2B8B8 /* GVPClient.swift */; };
@@ -155,7 +153,6 @@
 		A455E2431C496A3500E56585 /* LocationLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationLoader.swift; sourceTree = "<group>"; };
 		A455E2461C49757200E56585 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 		A455E2481C497CAF00E56585 /* CSVReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVReader.swift; sourceTree = "<group>"; };
-		A455E24D1C49E6EE00E56585 /* worldcitiespop.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = worldcitiespop.txt; sourceTree = "<group>"; };
 		A45B399D1C0406F300E0F448 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
 		A45B399F1C040D2700E0F448 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		A45BA6EA1C6B011800B43D2F /* LogUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogUtil.swift; sourceTree = "<group>"; };
@@ -189,7 +186,6 @@
 		A495EC391C4C7359004139D5 /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
 		A4A947901C4B8238006226DA /* MapConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapConfig.swift; sourceTree = "<group>"; };
 		A4A947921C4B8DFD006226DA /* MapConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapConfigViewController.swift; sourceTree = "<group>"; };
-		A4AB01411C79CC1E00F0AD0D /* Visivent.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Visivent.sqlite; sourceTree = "<group>"; };
 		A4AB01421C79CC1E00F0AD0D /* Visivent.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Visivent.sqlite-shm"; sourceTree = "<group>"; };
 		A4AB01431C79CC1E00F0AD0D /* Visivent.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Visivent.sqlite-wal"; sourceTree = "<group>"; };
 		A4B20ABB1C5706F300A2B8B8 /* GVPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVPClient.swift; sourceTree = "<group>"; };
@@ -292,7 +288,6 @@
 		A4015EC41BF908620068AA2A /* Visivent */ = {
 			isa = PBXGroup;
 			children = (
-				A4AB01411C79CC1E00F0AD0D /* Visivent.sqlite */,
 				A4AB01421C79CC1E00F0AD0D /* Visivent.sqlite-shm */,
 				A4AB01431C79CC1E00F0AD0D /* Visivent.sqlite-wal */,
 				A4E2A0D81C673179008553FC /* earthquake6_pin.png */,
@@ -309,7 +304,6 @@
 				A4E2A0CA1C672170008553FC /* volcano_pin.png */,
 				A4E2A0C01C66F91F008553FC /* visivent.png */,
 				A43315971C5C7EBF00AD6DBB /* volcano_list.txt */,
-				A455E24D1C49E6EE00E56585 /* worldcitiespop.txt */,
 				A4015EFC1BF909590068AA2A /* View */,
 				A4015EFB1BF909500068AA2A /* Controller */,
 				A4015EF81BF908700068AA2A /* Model */,
@@ -612,10 +606,8 @@
 				A4E2A0BF1C66ED87008553FC /* Launch Screen.storyboard in Resources */,
 				A43315981C5C7EBF00AD6DBB /* volcano_list.txt in Resources */,
 				A4015ED21BF908620068AA2A /* Assets.xcassets in Resources */,
-				A455E24F1C49E6EE00E56585 /* worldcitiespop.txt in Resources */,
 				A4E2A0E11C673179008553FC /* earthquake10_pin.png in Resources */,
 				A4AB01461C79CC1E00F0AD0D /* Visivent.sqlite-wal in Resources */,
-				A4AB01441C79CC1E00F0AD0D /* Visivent.sqlite in Resources */,
 				A4E2A0DD1C673179008553FC /* earthquake6_pin.png in Resources */,
 				A4E2A0CB1C672170008553FC /* volcano_pin.png in Resources */,
 				A4E2A0E01C673179008553FC /* earthquake9_pin.png in Resources */,
