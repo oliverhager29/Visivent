@@ -1,10 +1,14 @@
-# Visivent App
+Visivent iOS App
+================
+
 This App is an iOS App that visualizes events from various datasources in different maps and animates them.
 
 See README.pdf for a detailed functional description
 
 The App source code must be fetched in the following way:
-\# make a local directory
+
+```java
+# make a local directory
 mkdir LocalProject
 cd LocalProject
 # clone git hub project
@@ -39,3 +43,4 @@ open Visivent.xcworkspace
 # Select menu item Product -> Build
 # The project should be successfully built
 
+```
