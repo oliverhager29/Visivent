@@ -73,8 +73,6 @@
 		A4CBF3E41C5B482400F5E386 /* PointOfInterestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBF3E31C5B482400F5E386 /* PointOfInterestRepository.swift */; };
 		A4CEC6071C11547100F42E13 /* EventLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CEC6061C11547100F42E13 /* EventLoader.swift */; };
 		A4D29CD21C3CFFCD00230353 /* TwitterConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D29CD11C3CFFCD00230353 /* TwitterConfig.swift */; };
-		A4D652E81C06B55E00991844 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D652E31C06B54B00991844 /* SwifteriOS.framework */; };
-		A4D652E91C06B55E00991844 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4D652E31C06B54B00991844 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A4E2A0BF1C66ED87008553FC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0BE1C66ED87008553FC /* Launch Screen.storyboard */; };
 		A4E2A0C11C66F91F008553FC /* visivent.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0C01C66F91F008553FC /* visivent.png */; };
 		A4E2A0CB1C672170008553FC /* volcano_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0CA1C672170008553FC /* volcano_pin.png */; };
@@ -112,41 +110,6 @@
 			remoteGlobalIDString = A4015EC11BF908620068AA2A;
 			remoteInfo = Visivent;
 		};
-		A4D652E01C06B54B00991844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
-			remoteInfo = SwifterDemoiOS;
-		};
-		A4D652E21C06B54B00991844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
-			remoteInfo = SwifteriOS;
-		};
-		A4D652E41C06B54B00991844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B9F51131944A61D00894629;
-			remoteInfo = SwifterMac;
-		};
-		A4D652E61C06B54B00991844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B300C471944AECB00993175;
-			remoteInfo = SwifterDemoMac;
-		};
-		A4D652EA1C06B55E00991844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
-			remoteInfo = SwifteriOS;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -156,7 +119,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A4D652E91C06B55E00991844 /* SwifteriOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,7 +204,6 @@
 		A4CBF3E31C5B482400F5E386 /* PointOfInterestRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointOfInterestRepository.swift; sourceTree = "<group>"; };
 		A4CEC6061C11547100F42E13 /* EventLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLoader.swift; sourceTree = "<group>"; };
 		A4D29CD11C3CFFCD00230353 /* TwitterConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterConfig.swift; sourceTree = "<group>"; };
-		A4D652D91C06B54A00991844 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = "../../../Downloads/Swifter-master/Swifter.xcodeproj"; sourceTree = "<group>"; };
 		A4E2A0BE1C66ED87008553FC /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A4E2A0C01C66F91F008553FC /* visivent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visivent.png; sourceTree = "<group>"; };
 		A4E2A0CA1C672170008553FC /* volcano_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volcano_pin.png; sourceTree = "<group>"; };
@@ -274,7 +235,6 @@
 				A448E09A1C14F71C002EE878 /* CoreData.framework in Frameworks */,
 				A448E0981C14F713002EE878 /* MapKit.framework in Frameworks */,
 				A45B39A01C040D2700E0F448 /* Social.framework in Frameworks */,
-				A4D652E81C06B55E00991844 /* SwifteriOS.framework in Frameworks */,
 				07229B7FCF156B00AB815D77 /* Pods_Visivent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +269,6 @@
 			children = (
 				A448E0991C14F71C002EE878 /* CoreData.framework */,
 				A448E0971C14F713002EE878 /* MapKit.framework */,
-				A4D652D91C06B54A00991844 /* Swifter.xcodeproj */,
 				A45B399F1C040D2700E0F448 /* Social.framework */,
 				A4015EC41BF908620068AA2A /* Visivent */,
 				A4015EDE1BF908620068AA2A /* VisiventTests */,
@@ -518,17 +477,6 @@
 			name = Volcanoes;
 			sourceTree = "<group>";
 		};
-		A4D652DA1C06B54A00991844 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A4D652E11C06B54B00991844 /* SwifterDemoiOS.app */,
-				A4D652E31C06B54B00991844 /* SwifteriOS.framework */,
-				A4D652E51C06B54B00991844 /* SwifterMac.framework */,
-				A4D652E71C06B54B00991844 /* SwifterDemoMac.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A4F9C0E11C0BE695004C67ED /* MapQuest */ = {
 			isa = PBXGroup;
 			children = (
@@ -567,7 +515,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				A4D652EB1C06B55E00991844 /* PBXTargetDependency */,
 			);
 			name = Visivent;
 			productName = Visivent;
@@ -644,12 +591,6 @@
 			mainGroup = A4015EB91BF908620068AA2A;
 			productRefGroup = A4015EC31BF908620068AA2A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A4D652DA1C06B54A00991844 /* Products */;
-					ProjectRef = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A4015EC11BF908620068AA2A /* Visivent */,
@@ -658,37 +599,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A4D652E11C06B54B00991844 /* SwifterDemoiOS.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwifterDemoiOS.app;
-			remoteRef = A4D652E01C06B54B00991844 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A4D652E31C06B54B00991844 /* SwifteriOS.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwifteriOS.framework;
-			remoteRef = A4D652E21C06B54B00991844 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A4D652E51C06B54B00991844 /* SwifterMac.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwifterMac.framework;
-			remoteRef = A4D652E41C06B54B00991844 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A4D652E71C06B54B00991844 /* SwifterDemoMac.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwifterDemoMac.app;
-			remoteRef = A4D652E61C06B54B00991844 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A4015EC01BF908620068AA2A /* Resources */ = {
@@ -878,11 +788,6 @@
 			isa = PBXTargetDependency;
 			target = A4015EC11BF908620068AA2A /* Visivent */;
 			targetProxy = A4015EE71BF908620068AA2A /* PBXContainerItemProxy */;
-		};
-		A4D652EB1C06B55E00991844 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwifteriOS;
-			targetProxy = A4D652EA1C06B55E00991844 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
