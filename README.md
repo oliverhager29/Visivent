@@ -4,7 +4,7 @@ This App is an iOS App that visualizes events from various datasources in differ
 See README.pdf for a detailed functional description
 
 The App source code must be fetched in the following way:
-# make a local directory
+## make a local directory
 mkdir LocalProject
 cd LocalProject
 # clone git hub project
