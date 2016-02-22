@@ -7,15 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07229B7FCF156B00AB815D77 /* Pods_Visivent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757229738AF8C45F867267F5 /* Pods_Visivent.framework */; };
 		A4015EC61BF908620068AA2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4015EC51BF908620068AA2A /* AppDelegate.swift */; };
 		A4015EC91BF908620068AA2A /* Visivent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4015EC71BF908620068AA2A /* Visivent.xcdatamodeld */; };
-		A4015ECB1BF908620068AA2A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4015ECA1BF908620068AA2A /* MasterViewController.swift */; };
-		A4015ECD1BF908620068AA2A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4015ECC1BF908620068AA2A /* DetailViewController.swift */; };
 		A4015ED01BF908620068AA2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4015ECE1BF908620068AA2A /* Main.storyboard */; };
 		A4015ED21BF908620068AA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4015ED11BF908620068AA2A /* Assets.xcassets */; };
-		A4015ED51BF908620068AA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4015ED31BF908620068AA2A /* LaunchScreen.storyboard */; };
 		A4015EE01BF908620068AA2A /* VisiventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4015EDF1BF908620068AA2A /* VisiventTests.swift */; };
 		A4015EEB1BF908620068AA2A /* VisiventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4015EEA1BF908620068AA2A /* VisiventUITests.swift */; };
+		A401DA411C26606C005D384B /* BridgeToDTMHeatmap.m in Sources */ = {isa = PBXBuildFile; fileRef = A401DA401C26606B005D384B /* BridgeToDTMHeatmap.m */; };
+		A43315981C5C7EBF00AD6DBB /* volcano_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = A43315971C5C7EBF00AD6DBB /* volcano_list.txt */; };
+		A433159A1C5C8A6800AD6DBB /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43315991C5C8A6800AD6DBB /* ImageCache.swift */; };
+		A43DA2251C154997002B5235 /* MapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43DA2241C154997002B5235 /* MapLocation.swift */; };
+		A448E0921C14F302002EE878 /* EventMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448E0911C14F302002EE878 /* EventMapViewController.swift */; };
+		A448E0981C14F713002EE878 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A448E0971C14F713002EE878 /* MapKit.framework */; };
+		A448E09A1C14F71C002EE878 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A448E0991C14F71C002EE878 /* CoreData.framework */; };
+		A455E23E1C48C6CB00E56585 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455E23D1C48C6CB00E56585 /* Location.swift */; };
+		A455E2441C496A3500E56585 /* LocationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455E2431C496A3500E56585 /* LocationLoader.swift */; };
+		A455E2471C49757200E56585 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455E2461C49757200E56585 /* FileReader.swift */; };
+		A455E2491C497CAF00E56585 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455E2481C497CAF00E56585 /* CSVReader.swift */; };
+		A455E24F1C49E6EE00E56585 /* worldcitiespop.txt in Resources */ = {isa = PBXBuildFile; fileRef = A455E24D1C49E6EE00E56585 /* worldcitiespop.txt */; };
+		A45B399E1C0406F300E0F448 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B399D1C0406F300E0F448 /* TwitterClient.swift */; };
+		A45B39A01C040D2700E0F448 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45B399F1C040D2700E0F448 /* Social.framework */; };
+		A45BA6EB1C6B011800B43D2F /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BA6EA1C6B011800B43D2F /* LogUtil.swift */; };
+		A462480F1C69A6D4008413B7 /* TimeWindowSliderThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462480E1C69A6D4008413B7 /* TimeWindowSliderThumbLayer.swift */; };
+		A46248111C69A79E008413B7 /* TimeWindowSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46248101C69A79E008413B7 /* TimeWindowSlider.swift */; };
+		A472FC111C6C3A6F00D8DCF6 /* MapCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472FC101C6C3A6F00D8DCF6 /* MapCategory.swift */; };
+		A47700321C0EB65F004106CF /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47700311C0EB65F004106CF /* DataSource.swift */; };
+		A479F3101C66B10D008FAD67 /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A479F30F1C66B10D008FAD67 /* FileUtil.swift */; };
+		A480C4001BFAD84C003E315A /* RSSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480C3FF1BFAD84C003E315A /* RSSClient.swift */; };
+		A480C4041BFAD885003E315A /* RSSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480C4031BFAD885003E315A /* RSSConstants.swift */; };
+		A480C4061BFAD8A0003E315A /* RSSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480C4051BFAD8A0003E315A /* RSSConfig.swift */; };
+		A485DD551C022A1E0015BF1A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A485DD541C022A1E0015BF1A /* Event.swift */; };
+		A485DD5B1C02BA060015BF1A /* USGSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A485DD571C02BA060015BF1A /* USGSConstants.swift */; };
+		A485DD5C1C02BA060015BF1A /* USGSConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A485DD581C02BA060015BF1A /* USGSConvenience.swift */; };
+		A485DD5D1C02BA060015BF1A /* USGSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A485DD591C02BA060015BF1A /* USGSClient.swift */; };
+		A485DD5E1C02BA060015BF1A /* USGSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A485DD5A1C02BA060015BF1A /* USGSConfig.swift */; };
+		A48881931C531979002F09C3 /* TwitterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48881921C531979002F09C3 /* TwitterConstants.swift */; };
+		A48881981C535508002F09C3 /* DataTruncationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48881971C535508002F09C3 /* DataTruncationHandler.swift */; };
+		A48DBA291C5583F100F4827A /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48DBA281C5583F100F4827A /* TopicsViewController.swift */; };
+		A48DBA2E1C5585B400F4827A /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48DBA2D1C5585B400F4827A /* TopicTableViewCell.swift */; };
+		A49070E01C41DCA5009AD6B0 /* ClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49070DF1C41DCA5009AD6B0 /* ClientConfig.swift */; };
+		A49070E51C41E46D009AD6B0 /* AbstractConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49070E41C41E46D009AD6B0 /* AbstractConfigViewController.swift */; };
+		A49070E71C41E73E009AD6B0 /* MapQuestConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49070E61C41E73E009AD6B0 /* MapQuestConfigViewController.swift */; };
+		A49070E91C41EB38009AD6B0 /* TwitterConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49070E81C41EB38009AD6B0 /* TwitterConfigViewController.swift */; };
+		A49070EB1C41ED46009AD6B0 /* USGSConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49070EA1C41ED46009AD6B0 /* USGSConfigViewController.swift */; };
+		A49070ED1C41EDD6009AD6B0 /* RSSConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49070EC1C41EDD6009AD6B0 /* RSSConfigViewController.swift */; };
+		A492E3C81C714F460007738D /* LocationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A492E3C71C714F460007738D /* LocationUtil.swift */; };
+		A492E3CA1C7169A00007738D /* SyncAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = A492E3C91C7169A00007738D /* SyncAsync.swift */; };
+		A492E3CC1C7169E40007738D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A492E3CB1C7169E40007738D /* Utils.swift */; };
+		A495EC3A1C4C7359004139D5 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495EC391C4C7359004139D5 /* StringUtil.swift */; };
+		A4A947911C4B8238006226DA /* MapConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A947901C4B8238006226DA /* MapConfig.swift */; };
+		A4A947931C4B8DFD006226DA /* MapConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A947921C4B8DFD006226DA /* MapConfigViewController.swift */; };
+		A4AB01441C79CC1E00F0AD0D /* Visivent.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A4AB01411C79CC1E00F0AD0D /* Visivent.sqlite */; };
+		A4AB01451C79CC1E00F0AD0D /* Visivent.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = A4AB01421C79CC1E00F0AD0D /* Visivent.sqlite-shm */; };
+		A4AB01461C79CC1E00F0AD0D /* Visivent.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = A4AB01431C79CC1E00F0AD0D /* Visivent.sqlite-wal */; };
+		A4B20ABC1C5706F300A2B8B8 /* GVPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B20ABB1C5706F300A2B8B8 /* GVPClient.swift */; };
+		A4B20ABE1C5707AF00A2B8B8 /* GVPConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B20ABD1C5707AF00A2B8B8 /* GVPConvenience.swift */; };
+		A4B20AC01C57080200A2B8B8 /* GVPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B20ABF1C57080200A2B8B8 /* GVPConstants.swift */; };
+		A4B20AC21C5709BF00A2B8B8 /* GVPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B20AC11C5709BF00A2B8B8 /* GVPConfig.swift */; };
+		A4B20AC41C570E8500A2B8B8 /* GVPConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B20AC31C570E8500A2B8B8 /* GVPConfigViewController.swift */; };
+		A4B605A21C44B56E003F0222 /* KeywordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B605A11C44B56E003F0222 /* KeywordsViewController.swift */; };
+		A4B605A71C44B736003F0222 /* KeywordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B605A61C44B736003F0222 /* KeywordTableViewCell.swift */; };
+		A4C4490A1C5C6216005D01EF /* VolcanoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C449091C5C6216005D01EF /* VolcanoLoader.swift */; };
+		A4CBF3DD1C5B3CA200F5E386 /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBF3DC1C5B3CA200F5E386 /* PointOfInterest.swift */; };
+		A4CBF3E41C5B482400F5E386 /* PointOfInterestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBF3E31C5B482400F5E386 /* PointOfInterestRepository.swift */; };
+		A4CEC6071C11547100F42E13 /* EventLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CEC6061C11547100F42E13 /* EventLoader.swift */; };
+		A4D29CD21C3CFFCD00230353 /* TwitterConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D29CD11C3CFFCD00230353 /* TwitterConfig.swift */; };
+		A4D652E81C06B55E00991844 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D652E31C06B54B00991844 /* SwifteriOS.framework */; };
+		A4D652E91C06B55E00991844 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4D652E31C06B54B00991844 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4E2A0BF1C66ED87008553FC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0BE1C66ED87008553FC /* Launch Screen.storyboard */; };
+		A4E2A0C11C66F91F008553FC /* visivent.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0C01C66F91F008553FC /* visivent.png */; };
+		A4E2A0CB1C672170008553FC /* volcano_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0CA1C672170008553FC /* volcano_pin.png */; };
+		A4E2A0D21C67315A008553FC /* earthquake0_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0CC1C67315A008553FC /* earthquake0_pin.png */; };
+		A4E2A0D31C67315A008553FC /* earthquake1_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0CD1C67315A008553FC /* earthquake1_pin.png */; };
+		A4E2A0D41C67315A008553FC /* earthquake2_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0CE1C67315A008553FC /* earthquake2_pin.png */; };
+		A4E2A0D51C67315A008553FC /* earthquake3_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0CF1C67315A008553FC /* earthquake3_pin.png */; };
+		A4E2A0D61C67315A008553FC /* earthquake4_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0D01C67315A008553FC /* earthquake4_pin.png */; };
+		A4E2A0D71C67315A008553FC /* earthquake5_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0D11C67315A008553FC /* earthquake5_pin.png */; };
+		A4E2A0DD1C673179008553FC /* earthquake6_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0D81C673179008553FC /* earthquake6_pin.png */; };
+		A4E2A0DE1C673179008553FC /* earthquake7_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0D91C673179008553FC /* earthquake7_pin.png */; };
+		A4E2A0DF1C673179008553FC /* earthquake8_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0DA1C673179008553FC /* earthquake8_pin.png */; };
+		A4E2A0E01C673179008553FC /* earthquake9_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0DB1C673179008553FC /* earthquake9_pin.png */; };
+		A4E2A0E11C673179008553FC /* earthquake10_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E2A0DC1C673179008553FC /* earthquake10_pin.png */; };
+		A4F0A31B1C0D662E003C133C /* EventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0A31A1C0D662E003C133C /* EventRepository.swift */; };
+		A4F0A3201C0D677A003C133C /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0A31F1C0D677A003C133C /* CoreDataStackManager.swift */; };
+		A4F9C0E61C0BE70B004C67ED /* MapQuestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F9C0E51C0BE70B004C67ED /* MapQuestClient.swift */; };
+		A4F9C0E81C0BE722004C67ED /* MapQuestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F9C0E71C0BE722004C67ED /* MapQuestConfig.swift */; };
+		A4F9C0EA1C0BE73B004C67ED /* MapQuestConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F9C0E91C0BE73B004C67ED /* MapQuestConvenience.swift */; };
+		A4F9C0EC1C0BE758004C67ED /* MapQuestConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F9C0EB1C0BE758004C67ED /* MapQuestConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,17 +112,65 @@
 			remoteGlobalIDString = A4015EC11BF908620068AA2A;
 			remoteInfo = Visivent;
 		};
+		A4D652E01C06B54B00991844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		A4D652E21C06B54B00991844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		A4D652E41C06B54B00991844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		A4D652E61C06B54B00991844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		A4D652EA1C06B55E00991844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A4D652EC1C06B55E00991844 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A4D652E91C06B55E00991844 /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6392EFB2E91052FAE4971E0B /* Pods-Visivent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visivent.release.xcconfig"; path = "Pods/Target Support Files/Pods-Visivent/Pods-Visivent.release.xcconfig"; sourceTree = "<group>"; };
+		757229738AF8C45F867267F5 /* Pods_Visivent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Visivent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4015EC21BF908620068AA2A /* Visivent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visivent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4015EC51BF908620068AA2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4015EC81BF908620068AA2A /* Visivent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Visivent.xcdatamodel; sourceTree = "<group>"; };
-		A4015ECA1BF908620068AA2A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		A4015ECC1BF908620068AA2A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A4015ECF1BF908620068AA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4015ED11BF908620068AA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4015ED41BF908620068AA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4015ED61BF908620068AA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4015EDB1BF908620068AA2A /* VisiventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisiventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4015EDF1BF908620068AA2A /* VisiventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisiventTests.swift; sourceTree = "<group>"; };
@@ -51,6 +178,92 @@
 		A4015EE61BF908620068AA2A /* VisiventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisiventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4015EEA1BF908620068AA2A /* VisiventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisiventUITests.swift; sourceTree = "<group>"; };
 		A4015EEC1BF908620068AA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A401DA3B1C26606B005D384B /* Visivent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Visivent-Bridging-Header.h"; sourceTree = "<group>"; };
+		A401DA3F1C26606B005D384B /* BridgeToDTMHeatmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeToDTMHeatmap.h; sourceTree = "<group>"; };
+		A401DA401C26606B005D384B /* BridgeToDTMHeatmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeToDTMHeatmap.m; sourceTree = "<group>"; };
+		A401DA441C27A398005D384B /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		A401DA451C27A604005D384B /* DataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		A43315971C5C7EBF00AD6DBB /* volcano_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = volcano_list.txt; sourceTree = "<group>"; };
+		A43315991C5C8A6800AD6DBB /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		A43DA2241C154997002B5235 /* MapLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapLocation.swift; sourceTree = "<group>"; };
+		A448E0911C14F302002EE878 /* EventMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMapViewController.swift; sourceTree = "<group>"; };
+		A448E0971C14F713002EE878 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A448E0991C14F71C002EE878 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A455E23D1C48C6CB00E56585 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A455E2431C496A3500E56585 /* LocationLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationLoader.swift; sourceTree = "<group>"; };
+		A455E2461C49757200E56585 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		A455E2481C497CAF00E56585 /* CSVReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVReader.swift; sourceTree = "<group>"; };
+		A455E24D1C49E6EE00E56585 /* worldcitiespop.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = worldcitiespop.txt; sourceTree = "<group>"; };
+		A45B399D1C0406F300E0F448 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		A45B399F1C040D2700E0F448 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A45BA6EA1C6B011800B43D2F /* LogUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogUtil.swift; sourceTree = "<group>"; };
+		A462480E1C69A6D4008413B7 /* TimeWindowSliderThumbLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeWindowSliderThumbLayer.swift; sourceTree = "<group>"; };
+		A46248101C69A79E008413B7 /* TimeWindowSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeWindowSlider.swift; sourceTree = "<group>"; };
+		A472FC101C6C3A6F00D8DCF6 /* MapCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCategory.swift; sourceTree = "<group>"; };
+		A472FC151C6C7D4400D8DCF6 /* MapCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapCategory.h; sourceTree = "<group>"; };
+		A47700311C0EB65F004106CF /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		A479F30F1C66B10D008FAD67 /* FileUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtil.swift; sourceTree = "<group>"; };
+		A480C3FF1BFAD84C003E315A /* RSSClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSClient.swift; sourceTree = "<group>"; };
+		A480C4031BFAD885003E315A /* RSSConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSConstants.swift; sourceTree = "<group>"; };
+		A480C4051BFAD8A0003E315A /* RSSConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSConfig.swift; sourceTree = "<group>"; };
+		A485DD541C022A1E0015BF1A /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A485DD571C02BA060015BF1A /* USGSConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USGSConstants.swift; sourceTree = "<group>"; };
+		A485DD581C02BA060015BF1A /* USGSConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USGSConvenience.swift; sourceTree = "<group>"; };
+		A485DD591C02BA060015BF1A /* USGSClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USGSClient.swift; sourceTree = "<group>"; };
+		A485DD5A1C02BA060015BF1A /* USGSConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USGSConfig.swift; sourceTree = "<group>"; };
+		A48881921C531979002F09C3 /* TwitterConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterConstants.swift; sourceTree = "<group>"; };
+		A48881971C535508002F09C3 /* DataTruncationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTruncationHandler.swift; sourceTree = "<group>"; };
+		A48DBA281C5583F100F4827A /* TopicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
+		A48DBA2D1C5585B400F4827A /* TopicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		A49070DF1C41DCA5009AD6B0 /* ClientConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientConfig.swift; sourceTree = "<group>"; };
+		A49070E41C41E46D009AD6B0 /* AbstractConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractConfigViewController.swift; sourceTree = "<group>"; };
+		A49070E61C41E73E009AD6B0 /* MapQuestConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapQuestConfigViewController.swift; sourceTree = "<group>"; };
+		A49070E81C41EB38009AD6B0 /* TwitterConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterConfigViewController.swift; sourceTree = "<group>"; };
+		A49070EA1C41ED46009AD6B0 /* USGSConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USGSConfigViewController.swift; sourceTree = "<group>"; };
+		A49070EC1C41EDD6009AD6B0 /* RSSConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSConfigViewController.swift; sourceTree = "<group>"; };
+		A492E3C71C714F460007738D /* LocationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationUtil.swift; sourceTree = "<group>"; };
+		A492E3C91C7169A00007738D /* SyncAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncAsync.swift; sourceTree = "<group>"; };
+		A492E3CB1C7169E40007738D /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A495EC391C4C7359004139D5 /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
+		A4A947901C4B8238006226DA /* MapConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapConfig.swift; sourceTree = "<group>"; };
+		A4A947921C4B8DFD006226DA /* MapConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapConfigViewController.swift; sourceTree = "<group>"; };
+		A4AB01411C79CC1E00F0AD0D /* Visivent.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Visivent.sqlite; sourceTree = "<group>"; };
+		A4AB01421C79CC1E00F0AD0D /* Visivent.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Visivent.sqlite-shm"; sourceTree = "<group>"; };
+		A4AB01431C79CC1E00F0AD0D /* Visivent.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Visivent.sqlite-wal"; sourceTree = "<group>"; };
+		A4B20ABB1C5706F300A2B8B8 /* GVPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVPClient.swift; sourceTree = "<group>"; };
+		A4B20ABD1C5707AF00A2B8B8 /* GVPConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVPConvenience.swift; sourceTree = "<group>"; };
+		A4B20ABF1C57080200A2B8B8 /* GVPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVPConstants.swift; sourceTree = "<group>"; };
+		A4B20AC11C5709BF00A2B8B8 /* GVPConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVPConfig.swift; sourceTree = "<group>"; };
+		A4B20AC31C570E8500A2B8B8 /* GVPConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVPConfigViewController.swift; sourceTree = "<group>"; };
+		A4B605A11C44B56E003F0222 /* KeywordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordsViewController.swift; sourceTree = "<group>"; };
+		A4B605A61C44B736003F0222 /* KeywordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordTableViewCell.swift; sourceTree = "<group>"; };
+		A4C449091C5C6216005D01EF /* VolcanoLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolcanoLoader.swift; sourceTree = "<group>"; };
+		A4CBF3DC1C5B3CA200F5E386 /* PointOfInterest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
+		A4CBF3E31C5B482400F5E386 /* PointOfInterestRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointOfInterestRepository.swift; sourceTree = "<group>"; };
+		A4CEC6061C11547100F42E13 /* EventLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLoader.swift; sourceTree = "<group>"; };
+		A4D29CD11C3CFFCD00230353 /* TwitterConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterConfig.swift; sourceTree = "<group>"; };
+		A4D652D91C06B54A00991844 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = "../../../Downloads/Swifter-master/Swifter.xcodeproj"; sourceTree = "<group>"; };
+		A4E2A0BE1C66ED87008553FC /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A4E2A0C01C66F91F008553FC /* visivent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visivent.png; sourceTree = "<group>"; };
+		A4E2A0CA1C672170008553FC /* volcano_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volcano_pin.png; sourceTree = "<group>"; };
+		A4E2A0CC1C67315A008553FC /* earthquake0_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthquake0_pin.png; sourceTree = "<group>"; };
+		A4E2A0CD1C67315A008553FC /* earthquake1_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthquake1_pin.png; sourceTree = "<group>"; };
+		A4E2A0CE1C67315A008553FC /* earthquake2_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthquake2_pin.png; sourceTree = "<group>"; };
+		A4E2A0CF1C67315A008553FC /* earthquake3_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthquake3_pin.png; sourceTree = "<group>"; };
+		A4E2A0D01C67315A008553FC /* earthquake4_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthquake4_pin.png; sourceTree = "<group>"; };
+		A4E2A0D11C67315A008553FC /* earthquake5_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthquake5_pin.png; sourceTree = "<group>"; };
+		A4E2A0D81C673179008553FC /* earthquake6_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthquake6_pin.png; sourceTree = "<group>"; };
+		A4E2A0D91C673179008553FC /* earthquake7_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthquake7_pin.png; sourceTree = "<group>"; };
+		A4E2A0DA1C673179008553FC /* earthquake8_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthquake8_pin.png; sourceTree = "<group>"; };
+		A4E2A0DB1C673179008553FC /* earthquake9_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthquake9_pin.png; sourceTree = "<group>"; };
+		A4E2A0DC1C673179008553FC /* earthquake10_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthquake10_pin.png; sourceTree = "<group>"; };
+		A4F0A31A1C0D662E003C133C /* EventRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRepository.swift; sourceTree = "<group>"; };
+		A4F0A31F1C0D677A003C133C /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
+		A4F9C0E51C0BE70B004C67ED /* MapQuestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapQuestClient.swift; sourceTree = "<group>"; };
+		A4F9C0E71C0BE722004C67ED /* MapQuestConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapQuestConfig.swift; sourceTree = "<group>"; };
+		A4F9C0E91C0BE73B004C67ED /* MapQuestConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapQuestConvenience.swift; sourceTree = "<group>"; };
+		A4F9C0EB1C0BE758004C67ED /* MapQuestConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapQuestConstants.swift; sourceTree = "<group>"; };
+		FC393562B7053B5BEF453DE3 /* Pods-Visivent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visivent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Visivent/Pods-Visivent.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +271,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A448E09A1C14F71C002EE878 /* CoreData.framework in Frameworks */,
+				A448E0981C14F713002EE878 /* MapKit.framework in Frameworks */,
+				A45B39A01C040D2700E0F448 /* Social.framework in Frameworks */,
+				A4D652E81C06B55E00991844 /* SwifteriOS.framework in Frameworks */,
+				07229B7FCF156B00AB815D77 /* Pods_Visivent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +296,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A3B2BFA6E0E8C8C4F6F63E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				757229738AF8C45F867267F5 /* Pods_Visivent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4015EB91BF908620068AA2A = {
 			isa = PBXGroup;
 			children = (
+				A448E0991C14F71C002EE878 /* CoreData.framework */,
+				A448E0971C14F713002EE878 /* MapKit.framework */,
+				A4D652D91C06B54A00991844 /* Swifter.xcodeproj */,
+				A45B399F1C040D2700E0F448 /* Social.framework */,
 				A4015EC41BF908620068AA2A /* Visivent */,
 				A4015EDE1BF908620068AA2A /* VisiventTests */,
 				A4015EE91BF908620068AA2A /* VisiventUITests */,
 				A4015EC31BF908620068AA2A /* Products */,
+				BCA9FF4F7EAC9BE28D6AAAB6 /* Pods */,
+				4A3B2BFA6E0E8C8C4F6F63E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +333,33 @@
 		A4015EC41BF908620068AA2A /* Visivent */ = {
 			isa = PBXGroup;
 			children = (
+				A4AB01411C79CC1E00F0AD0D /* Visivent.sqlite */,
+				A4AB01421C79CC1E00F0AD0D /* Visivent.sqlite-shm */,
+				A4AB01431C79CC1E00F0AD0D /* Visivent.sqlite-wal */,
+				A4E2A0D81C673179008553FC /* earthquake6_pin.png */,
+				A4E2A0D91C673179008553FC /* earthquake7_pin.png */,
+				A4E2A0DA1C673179008553FC /* earthquake8_pin.png */,
+				A4E2A0DB1C673179008553FC /* earthquake9_pin.png */,
+				A4E2A0DC1C673179008553FC /* earthquake10_pin.png */,
+				A4E2A0CC1C67315A008553FC /* earthquake0_pin.png */,
+				A4E2A0CD1C67315A008553FC /* earthquake1_pin.png */,
+				A4E2A0CE1C67315A008553FC /* earthquake2_pin.png */,
+				A4E2A0CF1C67315A008553FC /* earthquake3_pin.png */,
+				A4E2A0D01C67315A008553FC /* earthquake4_pin.png */,
+				A4E2A0D11C67315A008553FC /* earthquake5_pin.png */,
+				A4E2A0CA1C672170008553FC /* volcano_pin.png */,
+				A4E2A0C01C66F91F008553FC /* visivent.png */,
+				A43315971C5C7EBF00AD6DBB /* volcano_list.txt */,
+				A455E24D1C49E6EE00E56585 /* worldcitiespop.txt */,
+				A4015EFC1BF909590068AA2A /* View */,
+				A4015EFB1BF909500068AA2A /* Controller */,
+				A4015EF81BF908700068AA2A /* Model */,
 				A4015EC51BF908620068AA2A /* AppDelegate.swift */,
-				A4015ECA1BF908620068AA2A /* MasterViewController.swift */,
-				A4015ECC1BF908620068AA2A /* DetailViewController.swift */,
 				A4015ECE1BF908620068AA2A /* Main.storyboard */,
 				A4015ED11BF908620068AA2A /* Assets.xcassets */,
-				A4015ED31BF908620068AA2A /* LaunchScreen.storyboard */,
 				A4015ED61BF908620068AA2A /* Info.plist */,
 				A4015EC71BF908620068AA2A /* Visivent.xcdatamodeld */,
+				A4E2A0BE1C66ED87008553FC /* Launch Screen.storyboard */,
 			);
 			path = Visivent;
 			sourceTree = "<group>";
@@ -131,6 +382,173 @@
 			path = VisiventUITests;
 			sourceTree = "<group>";
 		};
+		A4015EF81BF908700068AA2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4015EFA1BF909390068AA2A /* Clients */,
+				A4015EF91BF909300068AA2A /* Domain */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A4015EF91BF909300068AA2A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A485DD541C022A1E0015BF1A /* Event.swift */,
+				A4F0A31A1C0D662E003C133C /* EventRepository.swift */,
+				A4F0A31F1C0D677A003C133C /* CoreDataStackManager.swift */,
+				A47700311C0EB65F004106CF /* DataSource.swift */,
+				A4CEC6061C11547100F42E13 /* EventLoader.swift */,
+				A455E23D1C48C6CB00E56585 /* Location.swift */,
+				A495EC391C4C7359004139D5 /* StringUtil.swift */,
+				A48881971C535508002F09C3 /* DataTruncationHandler.swift */,
+				A4CBF3DC1C5B3CA200F5E386 /* PointOfInterest.swift */,
+				A4CBF3E31C5B482400F5E386 /* PointOfInterestRepository.swift */,
+				A479F30F1C66B10D008FAD67 /* FileUtil.swift */,
+				A45BA6EA1C6B011800B43D2F /* LogUtil.swift */,
+				A472FC101C6C3A6F00D8DCF6 /* MapCategory.swift */,
+				A492E3C71C714F460007738D /* LocationUtil.swift */,
+				A492E3C91C7169A00007738D /* SyncAsync.swift */,
+				A492E3CB1C7169E40007738D /* Utils.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		A4015EFA1BF909390068AA2A /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				A4B20AB71C57067900A2B8B8 /* Volcanoes */,
+				A455E2421C496A0500E56585 /* WordCities */,
+				A4F9C0E11C0BE695004C67ED /* MapQuest */,
+				A45B399C1C0406D700E0F448 /* Twitter */,
+				A485DD561C02B9C40015BF1A /* Earthquakes */,
+				A480C3FE1BFAD831003E315A /* Reuters */,
+				A49070DF1C41DCA5009AD6B0 /* ClientConfig.swift */,
+				A4A947901C4B8238006226DA /* MapConfig.swift */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		A4015EFB1BF909500068AA2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A448E0911C14F302002EE878 /* EventMapViewController.swift */,
+				A49070E41C41E46D009AD6B0 /* AbstractConfigViewController.swift */,
+				A49070E61C41E73E009AD6B0 /* MapQuestConfigViewController.swift */,
+				A49070E81C41EB38009AD6B0 /* TwitterConfigViewController.swift */,
+				A49070EA1C41ED46009AD6B0 /* USGSConfigViewController.swift */,
+				A49070EC1C41EDD6009AD6B0 /* RSSConfigViewController.swift */,
+				A4B605A11C44B56E003F0222 /* KeywordsViewController.swift */,
+				A4A947921C4B8DFD006226DA /* MapConfigViewController.swift */,
+				A48DBA281C5583F100F4827A /* TopicsViewController.swift */,
+				A4B20AC31C570E8500A2B8B8 /* GVPConfigViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A4015EFC1BF909590068AA2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A401DA3F1C26606B005D384B /* BridgeToDTMHeatmap.h */,
+				A401DA401C26606B005D384B /* BridgeToDTMHeatmap.m */,
+				A43DA2241C154997002B5235 /* MapLocation.swift */,
+				A401DA3B1C26606B005D384B /* Visivent-Bridging-Header.h */,
+				A401DA441C27A398005D384B /* Event.h */,
+				A401DA451C27A604005D384B /* DataSource.h */,
+				A4B605A61C44B736003F0222 /* KeywordTableViewCell.swift */,
+				A48DBA2D1C5585B400F4827A /* TopicTableViewCell.swift */,
+				A462480E1C69A6D4008413B7 /* TimeWindowSliderThumbLayer.swift */,
+				A46248101C69A79E008413B7 /* TimeWindowSlider.swift */,
+				A472FC151C6C7D4400D8DCF6 /* MapCategory.h */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A455E2421C496A0500E56585 /* WordCities */ = {
+			isa = PBXGroup;
+			children = (
+				A455E2431C496A3500E56585 /* LocationLoader.swift */,
+				A455E2461C49757200E56585 /* FileReader.swift */,
+				A455E2481C497CAF00E56585 /* CSVReader.swift */,
+			);
+			name = WordCities;
+			sourceTree = "<group>";
+		};
+		A45B399C1C0406D700E0F448 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				A45B399D1C0406F300E0F448 /* TwitterClient.swift */,
+				A4D29CD11C3CFFCD00230353 /* TwitterConfig.swift */,
+				A48881921C531979002F09C3 /* TwitterConstants.swift */,
+			);
+			name = Twitter;
+			sourceTree = "<group>";
+		};
+		A480C3FE1BFAD831003E315A /* Reuters */ = {
+			isa = PBXGroup;
+			children = (
+				A480C3FF1BFAD84C003E315A /* RSSClient.swift */,
+				A480C4031BFAD885003E315A /* RSSConstants.swift */,
+				A480C4051BFAD8A0003E315A /* RSSConfig.swift */,
+			);
+			name = Reuters;
+			sourceTree = "<group>";
+		};
+		A485DD561C02B9C40015BF1A /* Earthquakes */ = {
+			isa = PBXGroup;
+			children = (
+				A485DD571C02BA060015BF1A /* USGSConstants.swift */,
+				A485DD581C02BA060015BF1A /* USGSConvenience.swift */,
+				A485DD591C02BA060015BF1A /* USGSClient.swift */,
+				A485DD5A1C02BA060015BF1A /* USGSConfig.swift */,
+			);
+			name = Earthquakes;
+			sourceTree = "<group>";
+		};
+		A4B20AB71C57067900A2B8B8 /* Volcanoes */ = {
+			isa = PBXGroup;
+			children = (
+				A4B20ABB1C5706F300A2B8B8 /* GVPClient.swift */,
+				A4B20ABD1C5707AF00A2B8B8 /* GVPConvenience.swift */,
+				A4B20ABF1C57080200A2B8B8 /* GVPConstants.swift */,
+				A4B20AC11C5709BF00A2B8B8 /* GVPConfig.swift */,
+				A4C449091C5C6216005D01EF /* VolcanoLoader.swift */,
+				A43315991C5C8A6800AD6DBB /* ImageCache.swift */,
+			);
+			name = Volcanoes;
+			sourceTree = "<group>";
+		};
+		A4D652DA1C06B54A00991844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D652E11C06B54B00991844 /* SwifterDemoiOS.app */,
+				A4D652E31C06B54B00991844 /* SwifteriOS.framework */,
+				A4D652E51C06B54B00991844 /* SwifterMac.framework */,
+				A4D652E71C06B54B00991844 /* SwifterDemoMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F9C0E11C0BE695004C67ED /* MapQuest */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9C0E91C0BE73B004C67ED /* MapQuestConvenience.swift */,
+				A4F9C0E51C0BE70B004C67ED /* MapQuestClient.swift */,
+				A4F9C0E71C0BE722004C67ED /* MapQuestConfig.swift */,
+				A4F9C0EB1C0BE758004C67ED /* MapQuestConstants.swift */,
+			);
+			name = MapQuest;
+			sourceTree = "<group>";
+		};
+		BCA9FF4F7EAC9BE28D6AAAB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC393562B7053B5BEF453DE3 /* Pods-Visivent.debug.xcconfig */,
+				6392EFB2E91052FAE4971E0B /* Pods-Visivent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,13 +556,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4015EEF1BF908620068AA2A /* Build configuration list for PBXNativeTarget "Visivent" */;
 			buildPhases = (
+				DBB8C2052C73E5BB34160AB2 /* Check Pods Manifest.lock */,
 				A4015EBE1BF908620068AA2A /* Sources */,
 				A4015EBF1BF908620068AA2A /* Frameworks */,
 				A4015EC01BF908620068AA2A /* Resources */,
+				A4D652EC1C06B55E00991844 /* Embed Frameworks */,
+				E2D685F05954B632EC799849 /* Embed Pods Frameworks */,
+				ECCB2BFE5CB088B9A884D332 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A4D652EB1C06B55E00991844 /* PBXTargetDependency */,
 			);
 			name = Visivent;
 			productName = Visivent;
@@ -193,7 +616,7 @@
 		A4015EBA1BF908620068AA2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "OLIVER HAGER";
 				TargetAttributes = {
@@ -221,6 +644,12 @@
 			mainGroup = A4015EB91BF908620068AA2A;
 			productRefGroup = A4015EC31BF908620068AA2A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A4D652DA1C06B54A00991844 /* Products */;
+					ProjectRef = A4D652D91C06B54A00991844 /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A4015EC11BF908620068AA2A /* Visivent */,
@@ -230,14 +659,63 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		A4D652E11C06B54B00991844 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = A4D652E01C06B54B00991844 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A4D652E31C06B54B00991844 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = A4D652E21C06B54B00991844 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A4D652E51C06B54B00991844 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = A4D652E41C06B54B00991844 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A4D652E71C06B54B00991844 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = A4D652E61C06B54B00991844 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		A4015EC01BF908620068AA2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4015ED51BF908620068AA2A /* LaunchScreen.storyboard in Resources */,
+				A4E2A0D41C67315A008553FC /* earthquake2_pin.png in Resources */,
+				A4E2A0D31C67315A008553FC /* earthquake1_pin.png in Resources */,
+				A4E2A0DE1C673179008553FC /* earthquake7_pin.png in Resources */,
+				A4E2A0D51C67315A008553FC /* earthquake3_pin.png in Resources */,
+				A4E2A0BF1C66ED87008553FC /* Launch Screen.storyboard in Resources */,
+				A43315981C5C7EBF00AD6DBB /* volcano_list.txt in Resources */,
 				A4015ED21BF908620068AA2A /* Assets.xcassets in Resources */,
+				A455E24F1C49E6EE00E56585 /* worldcitiespop.txt in Resources */,
+				A4E2A0E11C673179008553FC /* earthquake10_pin.png in Resources */,
+				A4AB01461C79CC1E00F0AD0D /* Visivent.sqlite-wal in Resources */,
+				A4AB01441C79CC1E00F0AD0D /* Visivent.sqlite in Resources */,
+				A4E2A0DD1C673179008553FC /* earthquake6_pin.png in Resources */,
+				A4E2A0CB1C672170008553FC /* volcano_pin.png in Resources */,
+				A4E2A0E01C673179008553FC /* earthquake9_pin.png in Resources */,
+				A4E2A0DF1C673179008553FC /* earthquake8_pin.png in Resources */,
+				A4E2A0D61C67315A008553FC /* earthquake4_pin.png in Resources */,
+				A4E2A0C11C66F91F008553FC /* visivent.png in Resources */,
+				A4AB01451C79CC1E00F0AD0D /* Visivent.sqlite-shm in Resources */,
+				A4E2A0D71C67315A008553FC /* earthquake5_pin.png in Resources */,
 				A4015ED01BF908620068AA2A /* Main.storyboard in Resources */,
+				A4E2A0D21C67315A008553FC /* earthquake0_pin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +735,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DBB8C2052C73E5BB34160AB2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D685F05954B632EC799849 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Visivent/Pods-Visivent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECCB2BFE5CB088B9A884D332 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Visivent/Pods-Visivent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4015EBE1BF908620068AA2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A480C4061BFAD8A0003E315A /* RSSConfig.swift in Sources */,
+				A455E2441C496A3500E56585 /* LocationLoader.swift in Sources */,
+				A485DD5E1C02BA060015BF1A /* USGSConfig.swift in Sources */,
+				A48881931C531979002F09C3 /* TwitterConstants.swift in Sources */,
+				A485DD5C1C02BA060015BF1A /* USGSConvenience.swift in Sources */,
+				A4B20ABE1C5707AF00A2B8B8 /* GVPConvenience.swift in Sources */,
 				A4015EC61BF908620068AA2A /* AppDelegate.swift in Sources */,
+				A4F9C0EA1C0BE73B004C67ED /* MapQuestConvenience.swift in Sources */,
+				A485DD5B1C02BA060015BF1A /* USGSConstants.swift in Sources */,
+				A485DD5D1C02BA060015BF1A /* USGSClient.swift in Sources */,
+				A49070EB1C41ED46009AD6B0 /* USGSConfigViewController.swift in Sources */,
+				A448E0921C14F302002EE878 /* EventMapViewController.swift in Sources */,
 				A4015EC91BF908620068AA2A /* Visivent.xcdatamodeld in Sources */,
-				A4015ECB1BF908620068AA2A /* MasterViewController.swift in Sources */,
-				A4015ECD1BF908620068AA2A /* DetailViewController.swift in Sources */,
+				A4CBF3DD1C5B3CA200F5E386 /* PointOfInterest.swift in Sources */,
+				A4A947911C4B8238006226DA /* MapConfig.swift in Sources */,
+				A492E3CA1C7169A00007738D /* SyncAsync.swift in Sources */,
+				A4C4490A1C5C6216005D01EF /* VolcanoLoader.swift in Sources */,
+				A4CBF3E41C5B482400F5E386 /* PointOfInterestRepository.swift in Sources */,
+				A485DD551C022A1E0015BF1A /* Event.swift in Sources */,
+				A45BA6EB1C6B011800B43D2F /* LogUtil.swift in Sources */,
+				A4B20AC01C57080200A2B8B8 /* GVPConstants.swift in Sources */,
+				A4F9C0EC1C0BE758004C67ED /* MapQuestConstants.swift in Sources */,
+				A4F9C0E81C0BE722004C67ED /* MapQuestConfig.swift in Sources */,
+				A4B605A21C44B56E003F0222 /* KeywordsViewController.swift in Sources */,
+				A45B399E1C0406F300E0F448 /* TwitterClient.swift in Sources */,
+				A479F3101C66B10D008FAD67 /* FileUtil.swift in Sources */,
+				A4F0A31B1C0D662E003C133C /* EventRepository.swift in Sources */,
+				A49070ED1C41EDD6009AD6B0 /* RSSConfigViewController.swift in Sources */,
+				A4D29CD21C3CFFCD00230353 /* TwitterConfig.swift in Sources */,
+				A492E3C81C714F460007738D /* LocationUtil.swift in Sources */,
+				A492E3CC1C7169E40007738D /* Utils.swift in Sources */,
+				A480C4001BFAD84C003E315A /* RSSClient.swift in Sources */,
+				A48881981C535508002F09C3 /* DataTruncationHandler.swift in Sources */,
+				A480C4041BFAD885003E315A /* RSSConstants.swift in Sources */,
+				A49070E01C41DCA5009AD6B0 /* ClientConfig.swift in Sources */,
+				A46248111C69A79E008413B7 /* TimeWindowSlider.swift in Sources */,
+				A455E23E1C48C6CB00E56585 /* Location.swift in Sources */,
+				A49070E91C41EB38009AD6B0 /* TwitterConfigViewController.swift in Sources */,
+				A455E2491C497CAF00E56585 /* CSVReader.swift in Sources */,
+				A48DBA2E1C5585B400F4827A /* TopicTableViewCell.swift in Sources */,
+				A4B20ABC1C5706F300A2B8B8 /* GVPClient.swift in Sources */,
+				A4F0A3201C0D677A003C133C /* CoreDataStackManager.swift in Sources */,
+				A433159A1C5C8A6800AD6DBB /* ImageCache.swift in Sources */,
+				A49070E51C41E46D009AD6B0 /* AbstractConfigViewController.swift in Sources */,
+				A4A947931C4B8DFD006226DA /* MapConfigViewController.swift in Sources */,
+				A4F9C0E61C0BE70B004C67ED /* MapQuestClient.swift in Sources */,
+				A495EC3A1C4C7359004139D5 /* StringUtil.swift in Sources */,
+				A401DA411C26606C005D384B /* BridgeToDTMHeatmap.m in Sources */,
+				A455E2471C49757200E56585 /* FileReader.swift in Sources */,
+				A462480F1C69A6D4008413B7 /* TimeWindowSliderThumbLayer.swift in Sources */,
+				A47700321C0EB65F004106CF /* DataSource.swift in Sources */,
+				A43DA2251C154997002B5235 /* MapLocation.swift in Sources */,
+				A4B20AC21C5709BF00A2B8B8 /* GVPConfig.swift in Sources */,
+				A4B20AC41C570E8500A2B8B8 /* GVPConfigViewController.swift in Sources */,
+				A49070E71C41E73E009AD6B0 /* MapQuestConfigViewController.swift in Sources */,
+				A4CEC6071C11547100F42E13 /* EventLoader.swift in Sources */,
+				A4B605A71C44B736003F0222 /* KeywordTableViewCell.swift in Sources */,
+				A48DBA291C5583F100F4827A /* TopicsViewController.swift in Sources */,
+				A472FC111C6C3A6F00D8DCF6 /* MapCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +879,11 @@
 			target = A4015EC11BF908620068AA2A /* Visivent */;
 			targetProxy = A4015EE71BF908620068AA2A /* PBXContainerItemProxy */;
 		};
+		A4D652EB1C06B55E00991844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = A4D652EA1C06B55E00991844 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -307,14 +893,6 @@
 				A4015ECF1BF908620068AA2A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A4015ED31BF908620068AA2A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4015ED41BF908620068AA2A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -403,23 +981,32 @@
 		};
 		A4015EF01BF908620068AA2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC393562B7053B5BEF453DE3 /* Pods-Visivent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Visivent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webporting.Visivent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Visivent/Visivent-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A4015EF11BF908620068AA2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6392EFB2E91052FAE4971E0B /* Pods-Visivent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Visivent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webporting.Visivent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Visivent/Visivent-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -490,6 +1077,7 @@
 				A4015EF11BF908620068AA2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4015EF21BF908620068AA2A /* Build configuration list for PBXNativeTarget "VisiventTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +1086,7 @@
 				A4015EF41BF908620068AA2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4015EF51BF908620068AA2A /* Build configuration list for PBXNativeTarget "VisiventUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +1095,7 @@
 				A4015EF71BF908620068AA2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

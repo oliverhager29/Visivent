@@ -1,0 +1,10 @@
+PODS:
+  - DTMHeatmap (1.0)
+
+DEPENDENCIES:
+  - DTMHeatmap
+
+SPEC CHECKSUMS:
+  DTMHeatmap: f5588af0730fbfe78c75d6d013f1932d7d327ab2
+
+COCOAPODS: 0.39.0
