@@ -16,6 +16,7 @@ The App source code must be fetched in the following way:
 # see https://git-lfs.github.com/
 # After installation of git-lfs
 # make a local directory
+git lfs install
 mkdir LocalProject
 cd LocalProject
 # clone git hub project
