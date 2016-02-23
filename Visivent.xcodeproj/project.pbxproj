@@ -18,7 +18,6 @@
 		A41B59E91C7BFA0100E53A2D /* worldcitiespop.txt in Resources */ = {isa = PBXBuildFile; fileRef = A41B59E81C7BFA0100E53A2D /* worldcitiespop.txt */; };
 		A43315981C5C7EBF00AD6DBB /* volcano_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = A43315971C5C7EBF00AD6DBB /* volcano_list.txt */; };
 		A433159A1C5C8A6800AD6DBB /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43315991C5C8A6800AD6DBB /* ImageCache.swift */; };
-		A43AB8191C7C0030003D472B /* Visivent.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A43AB8181C7C0030003D472B /* Visivent.sqlite */; };
 		A43DA2251C154997002B5235 /* MapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43DA2241C154997002B5235 /* MapLocation.swift */; };
 		A448E0921C14F302002EE878 /* EventMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448E0911C14F302002EE878 /* EventMapViewController.swift */; };
 		A448E0981C14F713002EE878 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A448E0971C14F713002EE878 /* MapKit.framework */; };
@@ -32,6 +31,7 @@
 		A45BA6EB1C6B011800B43D2F /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BA6EA1C6B011800B43D2F /* LogUtil.swift */; };
 		A462480F1C69A6D4008413B7 /* TimeWindowSliderThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462480E1C69A6D4008413B7 /* TimeWindowSliderThumbLayer.swift */; };
 		A46248111C69A79E008413B7 /* TimeWindowSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46248101C69A79E008413B7 /* TimeWindowSlider.swift */; };
+		A46CE2711C7C287F00FAB24D /* Visivent.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A46CE2701C7C287F00FAB24D /* Visivent.sqlite */; };
 		A472FC111C6C3A6F00D8DCF6 /* MapCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472FC101C6C3A6F00D8DCF6 /* MapCategory.swift */; };
 		A47700321C0EB65F004106CF /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47700311C0EB65F004106CF /* DataSource.swift */; };
 		A479F3101C66B10D008FAD67 /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A479F30F1C66B10D008FAD67 /* FileUtil.swift */; };
@@ -186,7 +186,6 @@
 		A41B59E81C7BFA0100E53A2D /* worldcitiespop.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = worldcitiespop.txt; sourceTree = "<group>"; };
 		A43315971C5C7EBF00AD6DBB /* volcano_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = volcano_list.txt; sourceTree = "<group>"; };
 		A43315991C5C8A6800AD6DBB /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		A43AB8181C7C0030003D472B /* Visivent.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Visivent.sqlite; path = ../../../../udacity/Visivent/Visivent/Visivent.sqlite; sourceTree = "<group>"; };
 		A43DA2241C154997002B5235 /* MapLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapLocation.swift; sourceTree = "<group>"; };
 		A448E0911C14F302002EE878 /* EventMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMapViewController.swift; sourceTree = "<group>"; };
 		A448E0971C14F713002EE878 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -200,6 +199,7 @@
 		A45BA6EA1C6B011800B43D2F /* LogUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogUtil.swift; sourceTree = "<group>"; };
 		A462480E1C69A6D4008413B7 /* TimeWindowSliderThumbLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeWindowSliderThumbLayer.swift; sourceTree = "<group>"; };
 		A46248101C69A79E008413B7 /* TimeWindowSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeWindowSlider.swift; sourceTree = "<group>"; };
+		A46CE2701C7C287F00FAB24D /* Visivent.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Visivent.sqlite; sourceTree = "<group>"; };
 		A472FC101C6C3A6F00D8DCF6 /* MapCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCategory.swift; sourceTree = "<group>"; };
 		A472FC151C6C7D4400D8DCF6 /* MapCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapCategory.h; sourceTree = "<group>"; };
 		A47700311C0EB65F004106CF /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
@@ -333,7 +333,7 @@
 		A4015EC41BF908620068AA2A /* Visivent */ = {
 			isa = PBXGroup;
 			children = (
-				A43AB8181C7C0030003D472B /* Visivent.sqlite */,
+				A46CE2701C7C287F00FAB24D /* Visivent.sqlite */,
 				A41B59E81C7BFA0100E53A2D /* worldcitiespop.txt */,
 				A4AB01421C79CC1E00F0AD0D /* Visivent.sqlite-shm */,
 				A4AB01431C79CC1E00F0AD0D /* Visivent.sqlite-wal */,
@@ -697,7 +697,7 @@
 			files = (
 				A4E2A0D41C67315A008553FC /* earthquake2_pin.png in Resources */,
 				A4E2A0D31C67315A008553FC /* earthquake1_pin.png in Resources */,
-				A43AB8191C7C0030003D472B /* Visivent.sqlite in Resources */,
+				A46CE2711C7C287F00FAB24D /* Visivent.sqlite in Resources */,
 				A4E2A0DE1C673179008553FC /* earthquake7_pin.png in Resources */,
 				A4E2A0D51C67315A008553FC /* earthquake3_pin.png in Resources */,
 				A4E2A0BF1C66ED87008553FC /* Launch Screen.storyboard in Resources */,
