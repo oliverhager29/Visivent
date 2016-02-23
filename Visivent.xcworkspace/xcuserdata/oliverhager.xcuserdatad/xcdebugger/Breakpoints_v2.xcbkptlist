@@ -2978,31 +2978,16 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Visivent.MapQuestConfigViewController.__deallocating_deinit"
-                  moduleName = "Visivent"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/oliverhager/Documents/udacity/Visivent/Visivent/MapQuestConfigViewController.swift"
-                  timestampString = "477797964.074386"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
                   symbolName = "Visivent.MapQuestConfigViewController.init (Visivent.MapQuestConfigViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Visivent.MapQuestConfigViewController"
                   moduleName = "Visivent"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/oliverhager/Documents/udacity/Visivent/Visivent/MapQuestConfigViewController.swift"
-                  timestampString = "477797964.074556"
+                  urlString = "file:///Users/oliverhager/Documents/FinalProject/Test2/Visivent/Visivent/MapQuestConfigViewController.swift"
+                  timestampString = "477888361.759597"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "76">
+                  offsetFromSymbolStart = "58">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -3011,13 +2996,13 @@
                   symbolName = "Visivent.MapQuestConfigViewController.init (Visivent.MapQuestConfigViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Visivent.MapQuestConfigViewController&gt;"
                   moduleName = "Visivent"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/oliverhager/Documents/udacity/Visivent/Visivent/MapQuestConfigViewController.swift"
-                  timestampString = "477797964.074686"
+                  urlString = "file:///Users/oliverhager/Documents/FinalProject/Test2/Visivent/Visivent/MapQuestConfigViewController.swift"
+                  timestampString = "477888361.759803"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "36">
+                  offsetFromSymbolStart = "19">
                </Location>
             </Locations>
          </BreakpointContent>

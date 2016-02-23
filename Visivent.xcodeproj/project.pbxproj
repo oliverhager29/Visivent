@@ -16,9 +16,9 @@
 		A4015EEB1BF908620068AA2A /* VisiventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4015EEA1BF908620068AA2A /* VisiventUITests.swift */; };
 		A401DA411C26606C005D384B /* BridgeToDTMHeatmap.m in Sources */ = {isa = PBXBuildFile; fileRef = A401DA401C26606B005D384B /* BridgeToDTMHeatmap.m */; };
 		A41B59E91C7BFA0100E53A2D /* worldcitiespop.txt in Resources */ = {isa = PBXBuildFile; fileRef = A41B59E81C7BFA0100E53A2D /* worldcitiespop.txt */; };
-		A41B59EB1C7BFA1700E53A2D /* Visivent.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A41B59EA1C7BFA1700E53A2D /* Visivent.sqlite */; };
 		A43315981C5C7EBF00AD6DBB /* volcano_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = A43315971C5C7EBF00AD6DBB /* volcano_list.txt */; };
 		A433159A1C5C8A6800AD6DBB /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43315991C5C8A6800AD6DBB /* ImageCache.swift */; };
+		A43AB8191C7C0030003D472B /* Visivent.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A43AB8181C7C0030003D472B /* Visivent.sqlite */; };
 		A43DA2251C154997002B5235 /* MapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43DA2241C154997002B5235 /* MapLocation.swift */; };
 		A448E0921C14F302002EE878 /* EventMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448E0911C14F302002EE878 /* EventMapViewController.swift */; };
 		A448E0981C14F713002EE878 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A448E0971C14F713002EE878 /* MapKit.framework */; };
@@ -184,9 +184,9 @@
 		A401DA441C27A398005D384B /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		A401DA451C27A604005D384B /* DataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		A41B59E81C7BFA0100E53A2D /* worldcitiespop.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = worldcitiespop.txt; sourceTree = "<group>"; };
-		A41B59EA1C7BFA1700E53A2D /* Visivent.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Visivent.sqlite; sourceTree = "<group>"; };
 		A43315971C5C7EBF00AD6DBB /* volcano_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = volcano_list.txt; sourceTree = "<group>"; };
 		A43315991C5C8A6800AD6DBB /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		A43AB8181C7C0030003D472B /* Visivent.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Visivent.sqlite; path = ../../../../udacity/Visivent/Visivent/Visivent.sqlite; sourceTree = "<group>"; };
 		A43DA2241C154997002B5235 /* MapLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapLocation.swift; sourceTree = "<group>"; };
 		A448E0911C14F302002EE878 /* EventMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMapViewController.swift; sourceTree = "<group>"; };
 		A448E0971C14F713002EE878 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -333,7 +333,7 @@
 		A4015EC41BF908620068AA2A /* Visivent */ = {
 			isa = PBXGroup;
 			children = (
-				A41B59EA1C7BFA1700E53A2D /* Visivent.sqlite */,
+				A43AB8181C7C0030003D472B /* Visivent.sqlite */,
 				A41B59E81C7BFA0100E53A2D /* worldcitiespop.txt */,
 				A4AB01421C79CC1E00F0AD0D /* Visivent.sqlite-shm */,
 				A4AB01431C79CC1E00F0AD0D /* Visivent.sqlite-wal */,
@@ -697,7 +697,7 @@
 			files = (
 				A4E2A0D41C67315A008553FC /* earthquake2_pin.png in Resources */,
 				A4E2A0D31C67315A008553FC /* earthquake1_pin.png in Resources */,
-				A41B59EB1C7BFA1700E53A2D /* Visivent.sqlite in Resources */,
+				A43AB8191C7C0030003D472B /* Visivent.sqlite in Resources */,
 				A4E2A0DE1C673179008553FC /* earthquake7_pin.png in Resources */,
 				A4E2A0D51C67315A008553FC /* earthquake3_pin.png in Resources */,
 				A4E2A0BF1C66ED87008553FC /* Launch Screen.storyboard in Resources */,
