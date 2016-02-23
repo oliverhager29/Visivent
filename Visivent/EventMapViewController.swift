@@ -258,7 +258,9 @@ class EventMapViewController: UIViewController, MKMapViewDelegate {
         else {
             self.activityIndicator.center = CGPoint(x: self.view.frame.height/2, y: self.view.frame.width/2)
         }
-        self.activityIndicator.startAnimating()
+        if self.clientConfig.mapConfig.isPinShown || self.clientConfig.mapConfig.isSatelliteMapView {
+            self.activityIndicator.startAnimating()
+        }
         maxHours = self.clientConfig.mapConfig.maxHours
         let tmpHours = Double(round(Double(self.maxHours-self.hoursOffset)))
         self.mapView.delegate = self
